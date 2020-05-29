@@ -1,6 +1,11 @@
+html {
+  height: 100%;
+}
+
 body{
-	background-color: #c9cba3;
-	margin: 0 auto;
+	background-image: url("../assets/mario.jpg");
+	margin: auto;
+  	min-height: 100%;
 }
 
 .box{
@@ -33,7 +38,6 @@ body{
 .boardSpot{
 	width: 100px;
 	height: 75px;
-	background-color: #c9cba3;
 	float: left;
 	text-align: center;
 	padding-top: 25px;
