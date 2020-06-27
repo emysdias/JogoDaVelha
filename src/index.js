@@ -1,3 +1,4 @@
-function changeImage(name) {
-        document.getElementById("img").src=name;
-    }
+function changeimage()
+{
+document.getElementById("aa1").src= "../assets/o.png";
+}
