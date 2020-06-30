@@ -50,7 +50,7 @@ function startSpaces(){
 
 		var vencerdor = "";
 
-		if(((a1 == b1 && a1 == c1) || (a1 == a2 && a1 == a3) || (a1 == b2 && a1 == C3)) && a1 != ""){
+		if(((a1 == b1 && a1 == c1) || (a1 == a2 && a1 == a3) || (a1 == b2 && a1 == c3)) && a1 != ""){
 			vencerdor = a1;
 		}else if((b2 == b1 && b2 == b3 || (b2 == a2 && b2 == c2) || (b2 == a3 && b2 == c1)) && b2 != ""){
 			vencerdor = b2;
@@ -61,7 +61,22 @@ function startSpaces(){
 		if(vencerdor != ""){
 			gameOver = true;
 			alert("O vencerdor é o: " + vencerdor);
+			limpar();
 		}
 
 	}
+
+function limpar(){
+   document.getElementById("a1").innerHTML="";
+   document.getElementById("a2").innerHTML="";
+   document.getElementById("a3").innerHTML="";
+
+   document.getElementById("b1").innerHTML="";
+   document.getElementById("b2").innerHTML="";
+   document.getElementById("b3").innerHTML="";
+
+   document.getElementById("c1").innerHTML="";
+   document.getElementById("c2").innerHTML="";
+   document.getElementById("c3").innerHTML="";
+} 
 
