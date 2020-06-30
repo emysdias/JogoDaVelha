@@ -78,5 +78,19 @@ function limpar(){
    document.getElementById("c1").innerHTML="";
    document.getElementById("c2").innerHTML="";
    document.getElementById("c3").innerHTML="";
+
+   document.getElementById("a1").setAttribute("jogada", "");
+   document.getElementById("a2").setAttribute("jogada", "");
+   document.getElementById("a3").setAttribute("jogada", "");
+
+   document.getElementById("b1").setAttribute("jogada", "");
+   document.getElementById("b2").setAttribute("jogada", "");
+   document.getElementById("b3").setAttribute("jogada", "");
+
+   document.getElementById("c1").setAttribute("jogada", "");
+   document.getElementById("c2").setAttribute("jogada", "");
+   document.getElementById("c3").setAttribute("jogada", "");
+
+   gameOver = false;
 } 
 
