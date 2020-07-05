@@ -19,13 +19,13 @@ function startSpaces(){
 
 					if(playTime == player1){
 
-						this.innerHTML = "<img src = '../assets/x.png' width=50 height=50>";
+						this.innerHTML = "<img src = 'x.png' width=50 height=50>";
 						this.setAttribute("jogada", player1);
 						playTime = player2;
 
 					}else{
 
-						this.innerHTML = "<img src = '../assets/o.png' width=50 height=50>";
+						this.innerHTML = "<img src = 'o.png' width=50 height=50>";
 						this.setAttribute("jogada", player2);
 						playTime = player1;
 					}

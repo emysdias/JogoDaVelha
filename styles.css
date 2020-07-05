@@ -3,7 +3,7 @@ html {
 }
 
 body{
-	background-image: url("../assets/mario.jpg");
+	background-image: url("mario.jpg");
 	margin: auto;
   	min-height: 100%;
   	background-repeat: no-repeat;
