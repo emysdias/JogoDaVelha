@@ -9,6 +9,7 @@ startSpaces();
 function startSpaces(){
 	var spaces = document.getElementsByClassName("boardSpot");
 
+
 	for (var i = 0; i< spaces.length ; i++) {
 		spaces[i].addEventListener("click",
 			function(){
@@ -56,6 +57,8 @@ function startSpaces(){
 			vencerdor = b2;
 		}else if(((c3 == c2 && c3 == c1) || (c3 == a3 && c3 == b3)) && c3 !=""){
 			vencerdor = c3;
+		}else if((a1 && a2 && a3 && b1 && b2 && b3 && c1 && c3 && vencerdor=="")!=""){
+			vencerdor = "Ninguém";
 		}
 
 		if(vencerdor != ""){
